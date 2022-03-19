@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -13,4 +13,159 @@ a {
 
 * {
   box-sizing: border-box;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+body {
+    background-color: #ffbd4a;
+    margin: 10px;
+    position: relative;
+    font-family: "Oswald", cursive;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+#content {
+    background-color: #fff5e7;
+}
+
+#header {
+    padding: 50px 50px 70px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #ffbd4a;
+    height: 150px;
+}
+
+#ava {
+    width: 150px;
+    height: 150px;
+    /*   border: 1px solid; */
+}
+
+#ava img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#description {
+    width: 450px;
+    padding-left: 70px;
+    /*    border: 1px solid;  */
+}
+
+#description div {
+    margin-bottom: 10px;
+}
+
+#name {
+    font-size: 30px;
+    text-transform: uppercase;
+    border-left: 10px solid #ffbd4a;
+    padding-left: 10px;
+}
+
+#specialization {
+    text-transform: uppercase;
+    color: red;
+    font-size: 13px;
+    padding-bottom: 13px;
+    padding-left: 210px;
+}
+
+#info {
+    display: flex;
+    border-bottom: 3px solid #ffbd4a;
+}
+
+/* styles skills */
+
+#skills {
+    padding: 20px 50px 50px 50px;
+    /*   border: 1px solid; */
+}
+
+#lists {
+    display: flex;
+    /*    justify-content: space-evenly; */
+}
+
+/* #leftList {
+  border: 1px solid;
+} */
+
+#rightList {
+    margin-top: 25px;
+    margin-left: 20px;
+    /*   border: 1px solid; */
+}
+
+#rightList div {
+    display: flex;
+    margin-bottom: 6.5px;
+}
+
+.circleRating {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    background-color: #ee495d;
+}
+
+/* styles experience */
+
+#experience {
+    padding: 20px 50px 50px 50px;
+    /*   border: 1px solid; */
+}
+
+/* styles whereDidYouRecruit */
+
+#whereDidYouRecruit {
+    padding: 20px 50px 50px 50px;
+    /*   border: 1px solid; */
+}
+
+#mail img,
+#connect img,
+#personality img {
+    margin-right: 5px;
+}
+
+/* styles wishes */
+
+#wishes {
+    padding: 20px 50px 50px 50px;
+    border-bottom: 3px solid #ffbd4a;
+}
+
+/* styles additionally */
+
+#additionally {
+    padding: 20px 50px 50px 50px;
+    border-bottom: 3px solid #ffbd4a;
+}
+
+/* styles links */
+
+#links {
+    padding: 20px 50px 50px 50px;
+    border-bottom: 3px solid #ffbd4a;
+}
+
+/* common styles */
+
+.title {
+    font-size: 24px;
+    text-transform: uppercase;
 }
