@@ -1,4 +1,5 @@
 import React from "react";
+import CirclesRating from "./CirclesRating";
 
 function Info() {
     return (
@@ -14,24 +15,9 @@ function Info() {
                         </ul>
                     </div>
                     <div id="rightList">
-                        <div>
-                            <div class="circleRating"></div>
-                            <div class="circleRating"></div>
-                            <div class="circleRating"></div>
-                            <div class="circleRating"></div>
-                        </div>
-                        <div>
-                            <div class="circleRating"></div>
-                            <div class="circleRating"></div>
-                            <div class="circleRating"></div>
-                            <div class="circleRating"></div>
-                        </div>
-                        <div>
-                            <div class="circleRating"></div>
-                            <div class="circleRating"></div>
-                            <div class="circleRating"></div>
-                            <div class="circleRating"></div>
-                        </div>
+                        <CirclesRating />
+                        <CirclesRating />
+                        <CirclesRating />
                     </div>
                 </div>
             </div>
