@@ -1,4 +1,5 @@
 import React from "react";
+import List from "../common/List";
 import CirclesRating from "./CirclesRating";
 
 function Info() {
@@ -8,11 +9,11 @@ function Info() {
                 <div class="title">Навыки</div>
                 <div id="lists">
                     <div id="leftList">
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>ReactJS</li>
-                            <li>NextJS</li>
-                        </ul>
+                        <List
+                            firstListItem="JavaScript"
+                            secondListItem="ReactJS"
+                            thirdListItem="NextJS"
+                        />
                     </div>
                     <div id="rightList">
                         <CirclesRating />
@@ -24,21 +25,21 @@ function Info() {
             <div id="experience">
                 <div class="title">Опыт</div>
                 <div>
-                    <ul>
-                        <li>JavaScript - 3 года</li>
-                        <li>ReactJS - 2,5 года</li>
-                        <li>NextJS - 2 года</li>
-                    </ul>
+                    <List
+                        firstListItem="JavaScript - 3 года"
+                        secondListItem="ReactJS - 2,5 года"
+                        thirdListItem="NextJS - 2 года"
+                    />
                 </div>
             </div>
             <div id="whereDidYouRecruit">
                 <div class="title">Где получал</div>
                 <div>
-                    <ul>
-                        <li>на фрилансе</li>
-                        <li>на пет-проектах</li>
-                        <li>в компаниях, неофициально</li>
-                    </ul>
+                    <List
+                        firstListItem="на фрилансе"
+                        secondListItem="на пет-проектах"
+                        thirdListItem="в компаниях, неофициально"
+                    />
                 </div>
             </div>
         </div>
