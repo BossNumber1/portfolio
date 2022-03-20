@@ -3,7 +3,7 @@ import React from "react";
 function Links() {
     return (
         <div id="links">
-            <div class="title">Ссылки</div>
+            <div className="title">Ссылки</div>
             <div>
                 <ul>
                     <li>

@@ -7,7 +7,7 @@ function Info() {
     return (
         <div id="info">
             <div id="skills">
-                <div class="title">Навыки</div>
+                <div className="title">Навыки</div>
                 <div id="lists">
                     <div id="leftList">
                         <List

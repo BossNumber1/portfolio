@@ -4,7 +4,7 @@ import List from "./common/List";
 function Additionally() {
     return (
         <div id="additionally">
-            <div class="title">Дополнительно</div>
+            <div className="title">Дополнительно</div>
             <div>
                 <List
                     firstListItem="Есть высшее, но пока не по программированию (зато это

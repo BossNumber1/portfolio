@@ -10,7 +10,7 @@ function ListWithHeader({
 }) {
     return (
         <div id={idBlock}>
-            <div class="title">{title}</div>
+            <div className="title">{title}</div>
             <div>
                 <List
                     firstListItem={firstListItem}
